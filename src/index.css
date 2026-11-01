@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #064e3b;
+  --primary-hover: #065f46;
+  --accent-gold: #f59e0b;
+}
+
+[data-theme="yellow-red"] {
+  --primary-color: #dc2626;
+  --primary-hover: #b91c1c;
+  --accent-gold: #eab308;
+}
+
+/* Yellow, White & Red Tamil Kisan Theme */
+body.theme-yellow-red {
+  background-color: #fffdf5;
+  color: #1c1917;
+}
+
+body.theme-yellow-red .theme-navbar {
+  background-color: #ffffff !important;
+  border-bottom: 3px solid #dc2626 !important;
+  box-shadow: 0 4px 14px rgba(220, 38, 38, 0.08) !important;
+}
+
+body.theme-yellow-red .theme-sidebar {
+  background: linear-gradient(180deg, #450a0a 0%, #2b0707 100%) !important;
+  border-right: 2px solid #b91c1c !important;
+}
+
+body.theme-yellow-red .theme-sidebar-header {
+  background-color: #2b0707 !important;
+  border-bottom: 1px solid #7f1d1d !important;
+}
+
+body.theme-yellow-red .theme-active-nav {
+  background-color: #b91c1c !important;
+  color: #fef08a !important;
+  border-left: 4px solid #facc15 !important;
+}
+
+body.theme-yellow-red .theme-primary-btn {
+  background-color: #dc2626 !important;
+  color: #ffffff !important;
+  border-color: #eab308 !important;
+}
+
+body.theme-yellow-red .theme-primary-btn:hover {
+  background-color: #b91c1c !important;
+}
+
+body.theme-yellow-red .theme-badge-accent {
+  background-color: #fef08a !important;
+  color: #991b1b !important;
+  border: 1px solid #f59e0b !important;
+}
+
+@media print {
+  /* Clean print layout */
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* Hide interactive toolbars and navigation during print */
+  nav, aside, .no-print {
+    display: none !important;
+  }
+}

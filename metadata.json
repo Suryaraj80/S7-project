@@ -1,0 +1,8 @@
+{
+  "name": "ANNA AGRI AI (AAA Platform) - Tamil Nadu Farmers Welfare & Marketplace",
+  "description": "ANNA AGRI AI (AAA Platform) - Comprehensive agricultural intelligence portal for Tamil Nadu farmers featuring agro-weather, soil test slot booking, crop recommendations, direct farm-to-consumer marketplace, and government schemes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
